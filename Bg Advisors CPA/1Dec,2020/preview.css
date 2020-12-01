@@ -1,0 +1,237 @@
+body {
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: -webkit-fill-available;
+    border: none;
+}
+
+.bg {
+    background: #41494c;
+}
+
+.sticky-part {
+    position: sticky;
+    top: 0;
+}
+
+code {
+    color: #fff !important;
+}
+
+.banner {
+    padding: 20px 30px;
+    background: #40484c;
+}
+
+.banner-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-pills {
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 18px 0px;
+    background: #f9fafa url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNGY2ZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #fff 0, #f4f6f6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f4f6f6));
+    background: -webkit-linear-gradient(top, #fff 0, #f4f6f6 100%);
+    background: -o-linear-gradient(top, #fff 0, #f4f6f6 100%);
+    background: -ms-linear-gradient(top, #fff 0, #f4f6f6 100%);
+    background: linear-gradient(to bottom, #fff 0, #f4f6f6 100%);
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item:first-child:before {
+    content: none !important;
+}
+
+.nav-item:before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    left: 0;
+    top: -10px;
+    width: 1px;
+    background: #e1e6e8 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RhZTBlMyIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2RhZTBlMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkYWUwZTMiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(218, 224, 227, 0) 0, rgba(218, 224, 227, 1) 50%, rgba(218, 224, 227, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(218, 224, 227, 0)), color-stop(50%, rgba(218, 224, 227, 1)), color-stop(100%, rgba(218, 224, 227, 0)));
+    background: -webkit-linear-gradient(top, rgba(218, 224, 227, 0) 0, rgba(218, 224, 227, 1) 50%, rgba(218, 224, 227, 0) 100%);
+    background: -o-linear-gradient(top, rgba(218, 224, 227, 0) 0, rgba(218, 224, 227, 1) 50%, rgba(218, 224, 227, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(218, 224, 227, 0) 0, rgba(218, 224, 227, 1) 50%, rgba(218, 224, 227, 0) 100%);
+    background: linear-gradient(to bottom, rgba(218, 224, 227, 0) 0, rgba(218, 224, 227, 1) 50%, rgba(218, 224, 227, 0) 100%);
+}
+
+.nav-pills .nav-link,
+.nav-pills .nav-link:hover {
+    color: #000 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #e94371 !important;
+    background-color: transparent !important;
+}
+
+
+/* CODE  */
+
+pre .doctype {
+    color: #fff;
+}
+
+pre code {
+    color: #fff;
+    overflow: visible;
+    height: 400px;
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    padding: .5em;
+    background: #41494c;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+pre .tag {
+    color: #fff;
+}
+
+pre .tag,
+pre .tag .title,
+pre .keyword,
+pre .literal,
+pre .change,
+pre .winutils,
+pre .flow,
+pre .lisp .title,
+pre .clojure .built_in,
+pre .nginx .title,
+pre .tex .special,
+.at_rule,
+.css .tag,
+.css .id,
+.css .class {
+    color: #e94371;
+}
+
+pre .attribute,
+pre .symbol,
+pre .symbol .string,
+pre .regexp,
+.css .valuem,
+pre .pseudo {
+    color: #a0e341;
+}
+
+pre .tag .value,
+pre .string,
+pre .subst,
+pre .title,
+pre .haskell .type,
+pre .preprocessor,
+pre .ruby .class .parent,
+pre .built_in,
+pre .sql .aggregate,
+pre .django .template_tag,
+pre .django .variable,
+pre .smalltalk .class,
+pre .javadoc,
+pre .django .filter .argument,
+pre .smalltalk .localvars,
+pre .smalltalk .array,
+pre .attr_selector,
+pre .addition,
+pre .stream,
+pre .envvar,
+pre .apache .tag,
+pre .apache .cbracket,
+pre .tex .command,
+pre .prompt {
+    color: #dadb74;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+    opacity: .5;
+}
+
+pre .comment,
+pre .java .annotation,
+pre .python .decorator,
+pre .template_comment,
+pre .pi,
+pre .doctype,
+pre .deletion,
+pre .shebang,
+pre .apache .sqbracket,
+pre .tex .formula {
+    color: #74715d;
+}
+
+pre .tag,
+pre .tag .title,
+pre .keyword,
+pre .literal,
+pre .change,
+pre .winutils,
+pre .flow,
+pre .lisp .title,
+pre .clojure .built_in,
+pre .nginx .title,
+pre .tex .special,
+.at_rule,
+.css .tag,
+.css .id,
+.css .class {
+    color: #e94371;
+}
+
+pre .keyword,
+pre .literal,
+pre .css .id,
+pre .phpdoc,
+pre .title,
+pre .haskell .type,
+pre .vbscript .built_in,
+pre .sql .aggregate,
+pre .rsl .built_in,
+pre .smalltalk .class,
+pre .diff .header,
+pre .chunk,
+pre .winutils,
+pre .bash .variable,
+pre .apache .tag,
+pre .tex .special,
+pre .request,
+pre .status {
+    font-weight: bold;
+}
+
+.css .attribute,
+pre .value {
+    color: #64d6ef;
+}
+
+#css-code {
+    color: #64d6ef !important;
+}
+
+#css-code .rules {
+    color: #fff !important;
+}
